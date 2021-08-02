@@ -1,0 +1,25 @@
+{
+    "name": "wpjscc/backend-module",
+    "description": "",
+    "type":"laravel-module",
+
+    "authors": [
+        {
+            "name": "wpjscc",
+            "email": "wpjscc@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Backend\\": ""
+        }
+    }
+}
